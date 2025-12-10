@@ -1,0 +1,39 @@
+{
+  "name": "task-2-recreate-a-simple-ui-from-figma",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "commit": "git-cz",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.23.26",
+    "git-cz": "^4.9.0",
+    "lucide-react": "^0.556.0",
+    "next": "16.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-hook-form": "7.68.0",
+    "tailwind-merge": "^3.4.0",
+    "zod": "4.1.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.0.8",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "tw-animate-css": "1.4.0",
+    "typescript": "^5.9.3"
+  }
+}
