@@ -1,0 +1,88 @@
+import { Property } from "../../types/property";
+
+export const properties: Property[] = [
+  {
+    id: 1,
+    image: "/beautiful-villa-resort-egypt.jpg",
+    price: "2,500,000 L.E",
+    badge: "Villa",
+    title: "Sea View Luxury Villa",
+    description:
+      "Modern villa with private pool and panoramic Mediterranean sea view.",
+    location: "Alexandria, Egypt",
+    sqft: 320,
+    rooms: 6,
+    bath: 4,
+    company_logo: "/palm-hills.png",
+  },
+  {
+    id: 2,
+    image: "/elegant-villa-palm-trees-egypt.jpg",
+    price: "950,000 L.E",
+    badge: "Apartment",
+    title: "Modern City Apartment",
+    description:
+      "Fully furnished apartment located in the heart of Alexandria.",
+    location: "Alexandria, Egypt",
+    sqft: 140,
+    rooms: 3,
+    bath: 2,
+    company_logo: "/palm-hills.png",
+  },
+  {
+    id: 3,
+    image: "/luxury-villa-with-pool-in-egypt.jpg",
+    price: "6,800,000 L.E",
+    badge: "Villa",
+    title: "Resort Style Villa",
+    description:
+      "Spacious villa inside a gated community with greenery and lake view.",
+    location: "New Cairo, Egypt",
+    sqft: 410,
+    rooms: 8,
+    bath: 5,
+    company_logo: "/palm-hills.png",
+  },
+  {
+    id: 4,
+    image: "/beautiful-villa-resort-egypt.jpg",
+    price: "1,700,000 L.E",
+    badge: "House",
+    title: "Premium Family House",
+    description:
+      "Designed for family comfort with a private garden and open living area.",
+    location: "Alexandria, Egypt",
+    sqft: 260,
+    rooms: 5,
+    bath: 3,
+    company_logo: "/palm-hills.png",
+  },
+  {
+    id: 5,
+    image: "/modern-villa-house-egypt-architecture.jpg",
+    price: "3,900,000 L.E",
+    badge: "Duplex",
+    title: "Luxury Duplex with Terrace",
+    description:
+      "High-end duplex with a large terrace overlooking the city skyline.",
+    location: "Cairo, Egypt",
+    sqft: 300,
+    rooms: 7,
+    bath: 4,
+    company_logo: "/palm-hills.png",
+  },
+  {
+    id: 6,
+    image: "/luxury-villa-with-pool-in-egypt.jpg",
+    price: "1,200,000 L.E",
+    badge: "Loft",
+    title: "Modern Loft Apartment",
+    description:
+      "Open-space loft with modern interior design and wide glass windows.",
+    location: "Alexandria, Egypt",
+    sqft: 180,
+    rooms: 2,
+    bath: 1,
+    company_logo: "/palm-hills.png",
+  },
+];
