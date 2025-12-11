@@ -10,9 +10,14 @@ export default function RealEstateHeader() {
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7 }}
-        className="absolute -top-8 right-0 w-28 h-28 md:w-32 md:h-32 lg:w-42 lg:h-42"
+        className="absolute -top-20 md:-top-16 right-0 w-28 h-36 md:w-32 md:h-42 lg:w-42 lg:h-52"
       >
-        <Image src="/pattern.png" alt="pattern" fill />
+        <Image
+          src="/pattern.png"
+          alt="pattern"
+          fill
+          style={{ objectFit: "contain" }}
+        />
       </motion.div>
 
       <motion.div

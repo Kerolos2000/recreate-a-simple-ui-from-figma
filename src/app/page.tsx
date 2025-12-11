@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main id="real-estate" className="relative py-12 overflow-hidden">
+    <main id="real-estate" className="relative py-16 md:py-12 overflow-hidden">
       <RealEstateHeader />
       <RealEstateCarousel />
       <RealEstateFooter />
